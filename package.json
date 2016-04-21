@@ -11,6 +11,9 @@
     "debug": "~2.2.0",
     "mongoose" : "*",
     "mysql" : "*",
-    "async" : "*"
+    "async" : "*",
+    "crc-32" : "*",
+    "buffer-crc32" : "*",
+    "crc-hash" : "*"
   }
 }

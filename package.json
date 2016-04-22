@@ -1,19 +1,18 @@
 {
   "name": "coupon_data_transfer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./app"
+    "start": "node ./app",
+    "build":  "npm install coupon@0.0.1"
   },
   "dependencies": {
-    "body-parser": "~1.13.2",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
+    "debug": "*",
     "mongoose" : "*",
     "mysql" : "*",
     "async" : "*",
-    "crc-32" : "*",
-    "buffer-crc32" : "*",
-    "crc-hash" : "*"
+    "crc-hash" : "*",
+    "fs" : "*",
+    "log" : "*"
   }
 }
